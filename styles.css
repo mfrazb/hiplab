@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .container {
@@ -39,6 +40,7 @@ button {
 .nav {
     color: white;
     justify-content: space-between;
+    min-width: 70vw;
 }
 
 ul {
@@ -54,9 +56,12 @@ ul {
     color: white;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 70vw;
 }
 
 .left-hero {
+    min-width: 200px;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -74,6 +79,7 @@ ul {
     flex-direction: column;
     align-items: center;
     flex: 1;
+    min-width: 70vw;
 }
 
 .gallery-row {
@@ -106,6 +112,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex: 1;
+    max-width: 70vw;
 }
 
 .pullout p {
@@ -121,6 +128,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-width: 70vw;
 }
 
 .modal {
@@ -130,6 +138,7 @@ ul {
     color: white;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 40px;
 }
 
